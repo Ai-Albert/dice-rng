@@ -18,9 +18,9 @@ class _DiceState extends State<Dice> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.greenAccent,
+      backgroundColor: Colors.blue[800],
       appBar: AppBar(
-        backgroundColor: Colors.greenAccent,
+        backgroundColor: Colors.blue[600],
         centerTitle: true,
         title: Text(
           'Dice Roller',
